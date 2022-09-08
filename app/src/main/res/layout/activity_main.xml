@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="#F60000"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnone"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:onClick="setImage1"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btntwo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage2"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp"
+            tools:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btnthree"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage3"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnfour"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:onClick="setImage4"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btnfive"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage5"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp"
+            tools:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btnsix"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage6"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnseven"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:onClick="setImage7"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btneight"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage8"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp"
+            tools:srcCompat="@drawable/lamp" />
+
+        <ImageButton
+            android:id="@+id/btnnine"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:onClick="setImage9"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/lamp" />
+    </LinearLayout>
+
+</LinearLayout>
